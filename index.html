@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pizzaria Veneza</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Pizzaria Veneza</h1>
+    <nav>
+      <ul>
+          <li><a href="#about">Sobre</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div id="first">
+    <div id="primeira">
+        <section class="about" id="about1">
+            <h2>Sobre</h2>
+            <p>A Pizzaria Delícia é uma empresa familiar que se dedica a oferecer as melhores pizzas de Sengés desde 1990.</p>
+        </section>
+    </div>
+
+    <div id="segunda">
+        <section class="about" id="about2">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para fazer seu pedido:</p>
+            <p>Telefone: (43) 3567-1298</p>
+            <p>Email: contato@venezapizza.com</p>
+        </section>
+    </div>
+  </div>
+  
+  <section>
+    <h2 id="menu">Menu</h2>
+
+    <table>
+        <tr>
+            <th>IMAGEM</th>
+            <th>SABOR</th>
+            <th>INGREDIENTES</th>
+        </tr>
+        <tr>
+            <td> <img src="images/calabresa.png" width="300"></td>
+            <td>Calabresa</td>
+            <td>
+                <ol>
+                    <li>Calabresa</li>
+                    <li>Mussarela</li>
+                    <li>Molho de tomate</li>
+                    <li>Orégano</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td> <img src="images/quatroqueijos.png" width="300"></td>
+            <td>Quatro Queijos</td>
+            <td>
+                <ol>
+                    <li>Mussarela</li>
+                    <li>Parmesão</li>
+                    <li>Provolone</li>
+                    <li>Gorgonzola</li>
+                    <li>Molho de tomate</li>
+                    <li>Orégano</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td> <img src="images/margerita.png" width="300"></td>
+            <td>Margherita</td>
+            <td>
+                <ol>
+                    <li>Mussarela</li>
+                    <li>Toamte-cereja</li>
+                    <li>Molho de tomate</li>
+                    <li>Manjericão</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td> <img src="images/doce.png" width="300" ></td>
+            <td>Morango com Suspiro</td>
+            <td>
+                <ol>
+                    <li>Morango</li>
+                    <li>Chocolate Branco</li>
+                    <li>Suspiro</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+<br>
+<br>
+</section>
+
+  <footer>
+    Carlos Hobmeier © 2023  - Pizzaria Veneza. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
+
+
+
+
+<style>
+
+h1 {
+    color: white;
+    font-size: 1.5em;
+}
+
+body {
+    background-image: url(images/Pizza\ de\ Calabresa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#first {
+    width: 100%;
+    text-align: center;
+    display: inline-flex;
+    margin: auto;
+    margin-top: 30px;
+}
+
+#primeira{
+  width: 50%;
+
+}
+
+#segunda {
+  width: 50%;
+}
+
+#about1 {
+    max-width: 40%;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+
+#about2 {
+  max-width: 40%;
+  text-align: center;
+  margin-left: 20%
+}
+
+.about {
+background-color: rgba(0, 0, 0, 0.301);
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 20px;
+border-radius: 20px;
+}
+
+.about:hover {
+background-color: rgba(0, 0, 0, 0.486);
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 20px;
+border-radius: 20px;
+}
+
+header {
+  background-color: #ff9204;
+  color: #fff;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+header h1 {
+  margin: 0;
+  position: center;
+}
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  
+
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  position: center;
+  margin-left: 20px;
+  border-bottom: 1px solid white;
+  text-shadow: 1px 1px 1px black;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  font-weight: 600;
+  color: red;
+  text-decoration: none;
+  position: center;
+  border-bottom: 4px solid red;
+}
+
+section {
+  padding: 50px;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+ul li h3 {
+  margin-top: 0;
+}
+
+h1, h2, h3, p {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+#menu {
+    font-size: 3em;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 0px;
+}
+
+th {
+    border: 2px solid white;
+    font-size: 1.3em;
+    border-radius: 20px;
+    margin-left: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 20px;
+    background-color: #000000d7;
+}
+
+td {
+    border: 2px solid white;
+    font-size: 1.3em;
+    border-radius: 20px;
+    margin-left: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    padding: 20px;
+    background-color: #00000047;
+    text-align: center;
+}
+
+th:hover {
+  background-color: black;
+  font-size: 1.4em;
+  padding: 18px;
+} 
+
+
+td:hover {
+    background-color: #0000009b;
+}
+
+
+footer {
+  background-color: #ff9204;
+  font-size: 1.4em;
+  color: #fff;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+  width: 100%;
+
+}
+
+p {
+    font-size: 1.3em;
+}
+
+</style>
